@@ -1,0 +1,4 @@
+node_modules
+.env
+.streamlit
+package-lock.json
