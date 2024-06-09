@@ -24,8 +24,7 @@ prompt_message = "You are Buggy, my Code Tester and code QA. \
                     Then add the right code in the specified coding language with some advise for \
                     the improvement of code."
 
-system_message = st.sidebar.text_area("System message:",
-                                      value=prompt_message, disabled=True)
+system_message = prompt_message;
 model_temp = st.sidebar.slider("Temp", step=0.01, min_value=0.0,
                                max_value=2.0,
                                value=1.0)
